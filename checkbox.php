@@ -11,18 +11,19 @@
 <body>
     <form action="checkbox.php" method="post">
 
-        Apples <input type="checkbox" name="fruits[]" value="apples">
-        Mangoes <input type="checkbox" name="fruits[]" value="mangoes">
-        Pears <input type="checkbox" name="fruits[]" value="pears">
-        <input type="submit">
+    <input type="checkbox" name="fruits[]" value="apples"> Apples <br>
+    <input type="checkbox" name="fruits[]" value="mangoes"> Mangoes <br>
+    <input type="checkbox" name="fruits[]" value="pears">   Pears <br>
+    <input type="submit">
 
     </form>
     <?php
-    if (isset($_POST["fruits"])) {
-        echo "you chose a fruit";
-        echo $_POST['fruits'][0];
-        //$fruits = isset($_POST["fruits"]);
-        //echo  $fruits[0] ?? 'default';;
+    if(!empty($_POST['fruits'])) { //$_POST['fruits'] is an array, so loop over the array
+        foreach($_POST['fruits'] as $check) {
+                echo $check; //echoes the value set in the HTML form for each checked checkbox.
+                             //so, if I were to check 1, 3, and 5 it would echo value 1, value 3, value 5.
+                             //in your case, it would echo whatever $row['Report ID'] is equivalent to.
+        }
     } else {
         echo "you didn't choose";
     }

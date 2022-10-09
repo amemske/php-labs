@@ -17,13 +17,13 @@
     </form>
     <?php
     $grades = array("Antony" => "A+", "Eric" => "B+", "Cindy" => "C+");
-    echo $grades["Antony"];
-    echo count($grades);
-    $grades["Eric"] = "C-";
-    echo $grades["Eric"];
+    //echo $grades["Antony"];
+    //echo count($grades);
+   // $grades["Eric"] = "C-";
+    //echo $grades["Eric"];
 
-    if (isset($grades[$_POST["students"]])) {
-        echo $grades[$_POST["students"]];
+    if (isset($_POST["students"]) && isset($grades[$_POST["students"]]) ) {
+        echo "testing" . $grades[$_POST["students"]];
     } else {
         echo "nothing";
     }

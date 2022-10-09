@@ -17,7 +17,7 @@
     <br>
     <?php
     $number1 = $_GET["num1"];
-    $number2 = $_GET["num1"];
+    $number2 = $_GET["num2"];
     echo $number1 + $number2;
 
 

@@ -6,9 +6,9 @@
 //Method 1
 if (isset($_POST['submit'])) {
     $subject = htmlspecialchars($_POST['subject']);
-    $age = htmlspecialchars($_POST['marks']);
+    $marks = htmlspecialchars($_POST['marks']);
     echo $subject;
-    echo $age;
+    echo $marks;
 }
 
 */
