@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"Italy",
+            "league":"champions league",
+            "homeTeam": "Sampdoria",
+            "homeTeamForm":"D,L,L,L,L",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"16", 
+             "awayTeam": "Sassuolo",
+             "awayTeamForm":"L,D,W,L,D",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"11",
+             "TeamsInLeague": "20",
+             "finalScore": "Sampdoria",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Sassuolo",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Sampdoria",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Sassuolo",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Sampdoria",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Sassuolo" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Sampdoria",
+                    "htohThreeHScore":"2",
+                    "headtoheadThreeAway": "Sassuolo",
+                    "htohThreeAScore":"3",
+                    "headtoheadThreeWon": "Sassuolo"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Sampdoria",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Sassuolo",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

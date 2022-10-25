@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Barcelona",
+            "homeTeamForm":"W,W,L,L,D",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"5", 
+             "awayTeam": "Atlético Madrid",
+             "awayTeamForm":"L,W,L,L,D",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"4",
+             "TeamsInLeague": "20",
+             "finalScore": "Barcelona",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Atlético Madrid",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Barcelona",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Atlético Madrid"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Barcelona",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Atlético Madrid",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Atlético Madrid",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Barcelona",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Barcelona"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Barcelona",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Atlético Madrid",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Fortuna"
+         }         
+             
+          
+       }
+    ]
+ }

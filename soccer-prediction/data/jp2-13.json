@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Amorebieta",
+            "homeTeamForm":"D,D,D,L,W",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"19", 
+             "awayTeam": "Real Oviedo",
+             "awayTeamForm":"D,W,D,L,W",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"8",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Real Oviedo",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Amorebieta",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "RealOviedo"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Real Oviedo",
+                    "htohTwoHScore":"4",
+                    "headtoheadTwoAway": "Amorebieta",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "RealOviedo" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"null",
+                    "htohThreeHScore":"null",
+                    "headtoheadThreeAway": "null",
+                    "htohThreeAScore":"null",
+                    "headtoheadThreeWon": "null"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

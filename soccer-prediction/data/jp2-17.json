@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"Spain",
+            "league":"champions league",
+            "homeTeam": "Real Betis",
+            "homeTeamForm":"L,L,D,W,W",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"3", 
+             "awayTeam": "Villarreal",
+             "awayTeamForm":"W,W,D,L,W",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"7",
+             "TeamsInLeague": "20",
+             "finalScore": "Villarreal",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Villarreal",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Real Betis",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Villarreal"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Villarreal",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Real Betis",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Real Betis" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Real Betis",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Villarreal",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Real Betis",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Villarreal",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Villarreal"
+         }         
+             
+          
+       }
+    ]
+ }
