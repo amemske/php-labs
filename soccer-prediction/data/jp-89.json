@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england",
+            "league":"premiere",
+            "homeTeam": "Southampton",
+            "homeTeamForm":"D,W,D,W,W",
+             "homeTeamPosition":"9", 
+             "homeOdds": "2.3",
+             "awayTeam": "WestHam",
+             "awayTeamForm":"L,W,D,D,W",
+             "awayTeamPosition":"5",
+             "awayOdds": "3.1",
+             "TeamsInLeague": "19",
+             "totalDraws": "2",
+             "finalScore": "Southampton",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"WestHam",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Southampton",
+                    "htohOneAScore":"3",
+                    "headtoheadOneWon": "Southampton"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Southampton",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "WestHam",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"WestHam",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Southampton",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "WestHam"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Southampton",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "WestHam",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

@@ -1,7 +1,6 @@
 <?php
 
 function analysisNoClearPattern(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($headtoheadTwoWon === 'null' && $headtoheadOneWon === 'draw') {

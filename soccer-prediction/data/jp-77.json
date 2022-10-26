@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england",
+            "league":"champions league",
+            "homeTeam": "Chelsea",
+            "homeTeamForm":"D,L,D,W,W",
+             "homeTeamPosition":"3", 
+             "homeOdds": "3.20",
+             "awayTeam": "Liverpool",
+             "awayTeamForm":"W,W,W,W,W",
+             "awayTeamPosition":"2",
+             "awayOdds": "2.3",
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Chelsea",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Liverpool",
+                    "htohOneAScore":"2",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Liverpool",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Chelsea",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Liverpool",
+                    "htohThreeHScore":"0",
+                    "headtoheadThreeAway": "Chelsea",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "Chelsea"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Chelsea",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Liverpool",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Liverpool"
+         }         
+             
+          
+       }
+    ]
+ }

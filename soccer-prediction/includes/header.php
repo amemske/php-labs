@@ -5,7 +5,9 @@
     $components = explode('/', $path);
     $first_part = $components[1];
     //echo $first_part;
+    define( 'SCRIPT_ROOT', 'http://localhost/soccer-prediction' );
 ?>
+
 
 
 <!DOCTYPE html>
@@ -24,7 +26,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../assets/css/styles.css" rel="stylesheet" />
+        <link href="<?php  echo SCRIPT_ROOT.'/assets/css/styles.css'; ?>" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -38,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="<?= ($first_part == '') ? 'active':''; ?> nav-item"><a class="nav-link" href="/">Home</a></li>
-                        <li class="<?= ($first_part == 'matches.php') ? 'active':''; ?> nav-item"><a class="nav-link" href="matches.php">All Matches</a></li>
+                        <li class="<?= ($first_part == 'matches.php') ? 'active':''; ?> nav-item"><a class="nav-link" href="/matches">All Matches</a></li>
                     </ul>
                 </div>
             </div>

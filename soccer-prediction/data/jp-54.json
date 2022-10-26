@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"turkey",
+            "league":"champions league",
+            "homeTeam": "Sivasspor",
+            "homeTeamForm":"L,D,L,W,L",
+             "homeTeamPosition":"12",
+             "homeOdds": "2.55",
+             "awayTeam": "Beşiktaş",
+             "awayTeamForm":"W,D,D,D,W",
+             "awayTeamPosition":"6",
+             "awayOdds": "2.7",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Beşiktaş",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Beşiktaş",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Sivasspor",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Beşiktaş"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Sivasspor",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Beşiktaş",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Beşiktaş",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Sivasspor",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Beşiktaş"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Beşiktaş",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Sivasspor",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Sivasspor"
+         }         
+             
+          
+       }
+    ]
+ }

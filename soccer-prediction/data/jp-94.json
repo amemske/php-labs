@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Valencia",
+            "homeTeamForm":"L,D,L,L,W",
+             "homeTeamPosition":"9", 
+             "homeOdds": "2.8",
+             "awayTeam": "Athletic",
+             "awayTeamForm":"W,W,L,W,L",
+             "awayTeamPosition":"8",
+             "awayOdds": "2.8",
+             "totalDraws": "3",
+             "TeamsInLeague": "19",
+             "finalScore": "Valencia",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Athletic",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Valencia",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Valencia",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Athletic",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Athletic",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Valencia",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

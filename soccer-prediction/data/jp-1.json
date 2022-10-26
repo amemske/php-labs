@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england-premiere",
+            "league":"champions league",
+            "homeTeam": "Hull City",
+            "homeTeamForm":"L,L,W,W,W",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"18", 
+             "awayTeam": "Preston",
+             "awayTeamForm":"D,L,W,D,D",
+             "awayOdds":"2.4",
+             "totalDraws": "1",
+             "awayTeamPosition":"13",
+             "TeamsInLeague": "20",
+             "finalScore": "Preston",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Preston",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Hull City",
+                    "htohOneAScore":"4",
+                    "headtoheadOneWon": "Hull City"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Preston",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Hull City",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "Preston" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Hull City",
+                    "htohThreeHScore":"4",
+                    "headtoheadThreeAway": "Preston",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Hull City"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Preston",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Hull City",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

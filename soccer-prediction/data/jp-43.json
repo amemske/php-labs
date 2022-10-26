@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"netherlands",
+            "league":"champions league",
+            "homeTeam": "Zwolle",
+            "homeTeamForm":"L,W,W,D,W",
+             "homeTeamPosition":"18", 
+             "homeOdds": "2.25",
+             "awayTeam": "Groningen",
+             "awayTeamForm":"L,L,W,W,L",
+             "awayTeamPosition":"10",
+             "awayOdds": "3.20",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Groningen",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Zwolle",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Zwolle",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Groningen",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Zwolle" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Groningen",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Zwolle",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Groningen"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Groningen",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Zwolle",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Zwolle"
+         }         
+             
+          
+       }
+    ]
+ }

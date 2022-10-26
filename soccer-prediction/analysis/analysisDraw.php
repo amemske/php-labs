@@ -1,12 +1,10 @@
 <?php
 
     function analysisDraw(){     
-        require './parseJson.php';
-        require './constants.php';
-  
+      require './constants.php';
 
         //check total draws
-        if ($totalDraw >= 2) {
+        if ($totalDraws >= 2) {
             echo 'The head to head draws is greater or equal to 2';
         } 
 

@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"belgium",
+            "league":"champions league",
+            "homeTeam": "Oostende",
+            "homeTeamForm":"D,W,L,D,L",
+            "homeOdds": "2.7",
+             "homeTeamPosition":"14", 
+             "awayTeam": "StandardLiège",
+             "awayTeamForm":"D,W,L,D,L",
+             "awayTeamPosition":"13",
+             "awayOdds": "2.38",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Oostende",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"StandardLiège",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Oostende",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "StandardLiège"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"StandardLiège",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Oostende",
+                    "htohTwoAScore":"3",
+                    "headtoheadTwoWon": "Oostende" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Oostende",
+                    "htohThreeHScore":"6",
+                    "headtoheadThreeAway": "StandardLiège",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "Oostende"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Oostende",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "StandardLiège",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

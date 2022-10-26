@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"England-championship",
+            "league":"champions league",
+            "homeTeam": "Reading",
+            "homeTeamForm":"L,L,L,L,L",
+             "homeTeamPosition":"21", 
+             "homeOdds": "4.25",
+             "awayTeam": "Coventry",
+             "awayTeamForm":"D,L,L,W,L",
+             "awayTeamPosition":"13",
+             "awayOdds": "1.85",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "Coventry",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Coventry",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Reading",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Coventry"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Reading",
+                    "htohTwoHScore":"3",
+                    "headtoheadTwoAway": "Coventry",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Reading" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Coventry",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Reading",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "Coventry"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Reading",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Coventry",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "Reading"
+         }         
+             
+          
+       }
+    ]
+ }

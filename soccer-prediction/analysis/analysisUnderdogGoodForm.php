@@ -1,7 +1,6 @@
 <?php
 
 function analysisUnderdogGoodForm(){
-    require './parseJson.php';
     require './constants.php';
 
       //6.1. Team with good form underdog

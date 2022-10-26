@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england-league One",
+            "league":"champions league",
+            "homeTeam": "Lincoln",
+            "homeTeamForm":"L,W,L,L,W",
+             "homeTeamPosition":"17",
+             "homeOdds": "2.7",
+             "awayTeam": "Wycombe",
+             "awayTeamForm":"W,W,L,L,D",
+             "awayTeamPosition":"5",
+             "awayOdds": "2.45",
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Wycombe",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Lincoln",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Wycombe"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Wycombe",
+                    "htohTwoHScore":"3",
+                    "headtoheadTwoAway": "Lincoln",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "Wycombe" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Lincoln",
+                    "htohThreeHScore":"0",
+                    "headtoheadThreeAway": "Wycombe",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Wycombe",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Lincoln",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

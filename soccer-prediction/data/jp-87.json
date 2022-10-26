@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"austria",
+            "league":"champions league",
+            "homeTeam": "Ried",
+            "homeTeamForm":"L,W,L,W,D",
+             "homeTeamPosition":"7",
+             "homeOdds": "2.14",
+             "awayTeam": "Hartberg",
+             "awayTeamForm":"L,D,D,L,L",
+             "awayTeamPosition":"9",
+             "awayOdds": "3.18",
+             "totalDraws": "2",
+             "TeamsInLeague": "19",
+             "finalScore": "Ried",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Ried",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Hartberg",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Ried"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Hartberg",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Ried",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Hartberg",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Ried",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Ried",
+                "htohFourHScore":"3",
+                "headtoheadFourAway": "Hartberg",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Ried"
+         }         
+             
+          
+       }
+    ]
+ }

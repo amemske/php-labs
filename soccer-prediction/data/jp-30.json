@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england-premiere",
+            "league":"champions league",
+            "homeTeam": "Newcastle",
+            "homeTeamForm":"W,W,D,L,D",
+             "homeTeamPosition":"16", 
+             "homeOdds": "2.75",
+             "awayTeam": "Aston",
+             "awayTeamForm":"D,W,D,L,L",
+             "awayTeamPosition":"11",
+             "awayOdds": "2.55",
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Newcastle",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Aston",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Newcastle",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Aston"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Newcastle",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Aston",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Aston",
+                    "htohThreeHScore":"2",
+                    "headtoheadThreeAway": "Newcastle",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Aston"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Newcastle",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Aston",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

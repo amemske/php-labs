@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"france",
+            "league":"champions league",
+            "homeTeam": "Lens",
+            "homeTeamForm":"W,W,L,L,W",
+             "homeTeamPosition":"8", 
+             "homeOdds": "2.9",
+             "awayTeam": "Lyon",
+             "awayTeamForm":"W,W,W,L,W",
+             "awayTeamPosition":"7",
+             "awayOdds": "2.4",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Lyon",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Lens",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Lyon"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Lens",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Lyon",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Lyon",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Lens",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "Lyon"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Lens",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Lyon",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Lyon"
+         }         
+             
+          
+       }
+    ]
+ }

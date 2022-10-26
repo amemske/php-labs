@@ -1,7 +1,6 @@
 <?php
 
 function analysisTopHalfTeam(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($homeTeamPosition <= 5 && $awayTeamPosition >= 6) {

@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england",
+            "league":"champions league",
+            "homeTeam": "WestHam",
+            "homeTeamForm":"L,L,W,D,D",
+             "homeTeamPosition":"6", 
+             "homeOdds": "2.05",
+             "awayTeam": "Wolves",
+             "awayTeamForm":"W,L,W,W,L",
+             "awayTeamPosition":"7",
+             "awayOdds": "3.8",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "WestHam",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Wolves",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "WestHam",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Wolves"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Wolves",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "WestHam",
+                    "htohTwoAScore":"3",
+                    "headtoheadTwoWon": "WestHam" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"WestHam",
+                    "htohThreeHScore":"4",
+                    "headtoheadThreeAway": "Wolves",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "WestHam"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"WestHam",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Wolves",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Wolves"
+         }         
+             
+          
+       }
+    ]
+ }

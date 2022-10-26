@@ -1,7 +1,6 @@
 <?php
 
 function analysisPoorForm(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($checkHomeLosses >= 4) {

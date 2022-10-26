@@ -1,7 +1,6 @@
 <?php
 
 function analysisNeverWon(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($headtoheadOneWon !== $homeTeam && $headtoheadTwoWon !== $homeTeam && 

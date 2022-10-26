@@ -1,7 +1,6 @@
 <?php
 
 function analysisBottomHalfTeam(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($TeamsInLeague - $homeTeamPosition <= 4) {

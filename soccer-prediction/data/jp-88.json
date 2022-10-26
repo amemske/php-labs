@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"germany",
+            "league":"champions league",
+            "homeTeam": "Bochum",
+            "homeTeamForm":"D,D,W,D,L",
+            "homeOdds": "3.1",
+             "homeTeamPosition":"11", 
+             "awayTeam": "Freiburg",
+             "awayTeamForm":"W,L,D,W,W",
+             "awayTeamPosition":"5",
+             "awayOdds": "2.35",
+             "totalDraws": "0",
+             "TeamsInLeague": "19",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Bochum",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Freiburg",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Bochum"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Bochum",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Freiburg",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Bochum" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Freiburg",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Bochum",
+                    "htohThreeAScore":"3",
+                    "headtoheadThreeWon": "Bochum"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

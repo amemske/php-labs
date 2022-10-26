@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__."/router.php");
+require_once("{$_SERVER['DOCUMENT_ROOT']}/router.php");
 
 // ##################################################
 // ##################################################
@@ -9,35 +9,33 @@ require_once(__DIR__."/router.php");
 // Static GET
 // In the URL -> http://localhost
 // The output -> Index
-get('/', '/soccer-prediction/index.php');
+get('/', 'views/index.php');
+any('/matches', 'views/matches.php');
+// clear route - use this
+get('/match/$m', function(){
+    $uri = $_SERVER['REQUEST_URI'];
 
-// Dynamic GET. Example with 1 variable
-// The $id will be available in user.php
-get('/user/$id', 'soccer-prediction/user.php');
+    $path = parse_url($uri, PHP_URL_PATH);
+    $pathFragments = explode('/', $path);
+    $end = end($pathFragments); //the value is a string
+    //echo gettype($end);
+        // Read the JSON file
+    $json = file_get_contents('data/jp-'.$end.'.json');
+    // Decode the JSON file
+    $json_data = json_decode($json,true);
+    //data
+    $GLOBALS['data'] = $json_data['match'][0]; //make it into a global variable
 
-// Dynamic GET. Example with 2 variables
-// The $name will be available in user.php
-// The $last_name will be available in user.php
-get('/user/$name/$last_name', 'soccer-prediction/user.php');
+    var_dump($GLOBALS['data']);
 
-// Dynamic GET. Example with 2 variables with static
-// In the URL -> http://localhost/product/shoes/color/blue
-// The $type will be available in product.php
-// The $color will be available in product.php
-get('/product/$type/color/:color', 'soccer-prediction/product.php');
+   
 
-// Dynamic GET. Example with 1 variable and 1 query string
-// In the URL -> http://localhost/item/car?price=10
-// The $name will be available in items.php which is inside the views folder
-get('/item/$name', 'soccer-prediction/views/items.php');
+    include './views/match.php';
 
 
-// ##################################################
-// ##################################################
-// ##################################################
-// any can be used for GETs or POSTs
+  });
+//echo the variable
+//add the parameter passed as an argument
+// use the argument as the name of the json file
 
-// For GET or POST
-// The 404.php which is inside the views folder will be called
-// The 404.php has access to $_GET and $_POST
-any('/404', 'soccer-prediction/views/404.php');
+any('/404', 'views/404.php');

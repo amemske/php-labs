@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england-league One",
+            "league":"champions league",
+            "homeTeam": "Sheffield",
+            "homeTeamForm":"L,W,W,W,W",
+             "homeTeamPosition":"7", 
+             "homeOdds": "2.90",
+             "awayTeam": "Rotherham",
+             "awayTeamForm":"W,W,W,W,W",
+             "awayTeamPosition":"1",
+             "awayOdds": "2.45",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "Rotherham",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Rotherham",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Sheffield",
+                    "htohOneAScore":"2",
+                    "headtoheadOneWon": "Sheffield"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Sheffield",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Rotherham",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Rotherham" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Rotherham",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Sheffield",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Rotherham"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Rotherham",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Sheffield",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Sheffield"
+         }         
+             
+          
+       }
+    ]
+ }

@@ -1,7 +1,6 @@
 <?php
 
 function analysisUnderdogWon(){
-    require './parseJson.php';
     require './constants.php';
 
     if ($homeTeamPosition > $awayTeamPosition) {

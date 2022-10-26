@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"turkey",
+            "league":"champions league",
+            "homeTeam": "Altay",
+            "homeTeamForm":"L,L,W,D,L",
+            "homeTeamPosition":"19", 
+            "homeOdds": "2.63",
+            "awayTeam": "Gaziantep",
+            "awayTeamForm":"D,W,L,L,D",
+            "awayTeamPosition":"10",
+             "awayOdds": "2.6",
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Altay",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Gaziantep",
+                    "htohOneHScore":"4",
+                    "headtoheadOneAway": "Altay",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Gaziantep"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Altay",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Gaziantep",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Gaziantep",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Altay",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Gaziantep"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Altay",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Gaziantep",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

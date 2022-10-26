@@ -1,7 +1,6 @@
 <?php
 
 function analysisVeryGoodForm(){
-    require './parseJson.php';
     require './constants.php';
 
     

@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"austria",
+            "league":"champions league",
+            "homeTeam": "AustriaWien",
+            "homeTeamForm":"W,D,L,W,W",
+            "homeTeamPosition":"5", 
+            "homeOdds": "2.25",
+            "awayTeam": "Wolfsberger",
+            "awayTeamForm":"W,W,D,W,L",
+            "awayTeamPosition":"2",
+             "awayOdds": "3.25",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "AustriaWien",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Wolfsberger",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "AustriaWien",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Wolfsberger"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Wolfsberger",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "AustriaWien",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "AustriaWien" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"AustriaWien",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Wolfsberger",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "AustriaWien"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"AustriaWien",
+                "htohFourHScore":"3",
+                "headtoheadFourAway": "Wolfsberger",
+                "htohFourAScore":"5",
+                "headtoheadFourWon": "Wolfsberger"
+         }         
+             
+          
+       }
+    ]
+ }

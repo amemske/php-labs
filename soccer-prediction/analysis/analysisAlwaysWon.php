@@ -1,7 +1,6 @@
 <?php
 
 function analysisAlwaysWon(){
-    require './parseJson.php';
     require './constants.php';
 
     if (

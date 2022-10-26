@@ -1,30 +1,29 @@
 <?php
 
-$totalDraw =  $data['totalDraws'];
-$homeTeamPosition = $data["homeTeamPosition"];
-$awayTeamPosition = $data["awayTeamPosition"];
-$headtoheadOneWon = $data["headtoheadOne"]['headtoheadOneWon'];
-$headtoheadTwoWon = $data["headtoheadTwo"]['headtoheadTwoWon'];
-$headtoheadThreeWon = $data["headtoheadThree"]['headtoheadThreeWon'];
-$headtoheadFourWon = $data["headtoheadFour"]['headtoheadFourWon'];
-$country = $data["country"];
-$finalScore = $data["finalScore"];
-$homeTeamForm = $data["homeTeamForm"]; 
-$awayTeamForm = $data["awayTeamForm"]; 
-$totalDraws = $data["totalDraws"];
-$homeOdds = $data["homeOdds"];
-$awayOdds = $data["awayOdds"];
-$awayTeam = $data["awayTeam"];
-$homeTeam = $data["homeTeam"];
-$TeamsInLeague = $data["TeamsInLeague"];
-$htohOneHScore = $data['headtoheadOne']['htohOneHScore'];
-$htohOneAScore = $data['headtoheadOne']['htohOneAScore'];
-$htohTwoHScore = $data['headtoheadTwo']['htohTwoHScore'];
-$htohTwoAScore = $data['headtoheadTwo']['htohTwoAScore'];
-$htohThreeHScore = $data['headtoheadThree']['htohThreeHScore'];
-$htohThreeAScore = $data['headtoheadThree']['htohThreeAScore'];
-$htohFourHScore = $data['headtoheadFour']['htohFourHScore'];
-$htohFourAScore = $data['headtoheadFour']['htohFourAScore'];
+$totalDraws = $GLOBALS['data']["totalDraws"];
+$homeTeamPosition = $GLOBALS['data']["homeTeamPosition"];
+$awayTeamPosition = $GLOBALS['data']["awayTeamPosition"];
+$headtoheadOneWon = $GLOBALS['data']["headtoheadOne"]['headtoheadOneWon'];
+$headtoheadTwoWon = $GLOBALS['data']["headtoheadTwo"]['headtoheadTwoWon'];
+$headtoheadThreeWon = $GLOBALS['data']["headtoheadThree"]['headtoheadThreeWon'];
+$headtoheadFourWon = $GLOBALS['data']["headtoheadFour"]['headtoheadFourWon'];
+$country = $GLOBALS['data']["country"];
+$finalScore = $GLOBALS['data']["finalScore"];
+$homeTeamForm = $GLOBALS['data']["homeTeamForm"]; 
+$awayTeamForm = $GLOBALS['data']["awayTeamForm"]; 
+$homeOdds = $GLOBALS['data']["homeOdds"];
+$awayOdds = $GLOBALS['data']["awayOdds"];
+$awayTeam = $GLOBALS['data']["awayTeam"];
+$homeTeam = $GLOBALS['data']["homeTeam"];
+$TeamsInLeague = $GLOBALS['data']["TeamsInLeague"];
+$htohOneHScore = $GLOBALS['data']['headtoheadOne']['htohOneHScore'];
+$htohOneAScore = $GLOBALS['data']['headtoheadOne']['htohOneAScore'];
+$htohTwoHScore = $GLOBALS['data']['headtoheadTwo']['htohTwoHScore'];
+$htohTwoAScore = $GLOBALS['data']['headtoheadTwo']['htohTwoAScore'];
+$htohThreeHScore = $GLOBALS['data']['headtoheadThree']['htohThreeHScore'];
+$htohThreeAScore = $GLOBALS['data']['headtoheadThree']['htohThreeAScore'];
+$htohFourHScore = $GLOBALS['data']['headtoheadFour']['htohFourHScore'];
+$htohFourAScore = $GLOBALS['data']['headtoheadFour']['htohFourAScore'];
 
 $checkHomeDraws = substr_count($homeTeamForm,"D"); // just check for number of draws
 $checkAwayDraws = substr_count($awayTeamForm,"D"); // just check for number of draws
@@ -56,3 +55,5 @@ $allWins = $headtoheadOneWon . ',' . $headtoheadTwoWon .
 ',' . $headtoheadThreeWon .
 ',' . $headtoheadFourWon;
 
+
+  

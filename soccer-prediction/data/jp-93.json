@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"scotland",
+            "league":"champions league",
+            "homeTeam": "DundeeFC",
+            "homeTeamForm":"D,L,W,L,L",
+             "homeTeamPosition":"12", 
+             "homeOdds": "3.7",
+             "awayTeam": "Hibernian",
+             "awayTeamForm":"D,L,L,W,D",
+             "awayTeamPosition":"4",
+             "awayOdds": "2.1",
+             "totalDraws": "1",
+             "TeamsInLeague": "19",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Hibernian",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "DundeeFC",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Hibernian"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"DundeeFC",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Hibernian",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Hibernian",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "DundeeFC",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Hibernian"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Hibernian",
+                "htohFourHScore":"4",
+                "headtoheadFourAway": "DundeeFC",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Hibernian"
+         }         
+             
+          
+       }
+    ]
+ }

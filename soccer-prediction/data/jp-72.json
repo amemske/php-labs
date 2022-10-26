@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"france",
+            "league":"champions league",
+            "homeTeam": "Metz",
+            "homeTeamForm":"W,L,D,L,D",
+             "homeTeamPosition":"19", 
+             "homeOdds": "2.9",
+             "awayTeam": "Nantes",
+             "awayTeamForm":"L,W,L,W,W",
+             "awayTeamPosition":"7",
+             "awayOdds": "2.6",          
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Nantes",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Metz",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Nantes"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Metz",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Nantes",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Metz" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Nantes",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Metz",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Nantes",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Metz",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

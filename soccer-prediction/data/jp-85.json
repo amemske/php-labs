@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england",
+            "league":"league one",
+            "homeTeam": "Portsmouth",
+            "homeTeamForm":"L,W,W,W,D",
+             "homeTeamPosition":"11",
+             "homeOdds": "2.45", 
+             "awayTeam": "Oxford",
+             "awayTeamForm":"L,L,W,W,W",
+             "awayTeamPosition":"4",
+             "awayOdds": "2.88",
+             "totalDraws": "1",
+             "TeamsInLeague": "19",
+             "finalScore": "Portsmouth",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Oxford",
+                    "htohOneHScore":"3",
+                    "headtoheadOneAway": "Portsmouth",
+                    "htohOneAScore":"2",
+                    "headtoheadOneWon": "Oxford"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Oxford",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Portsmouth",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "Portsmouth" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Portsmouth",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Oxford",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

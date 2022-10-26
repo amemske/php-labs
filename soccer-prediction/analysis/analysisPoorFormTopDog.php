@@ -1,7 +1,6 @@
 <?php
 
 function analysisPoorFormTopDog(){
-    require './parseJson.php';
     require './constants.php';
 
     //5.1. Team with extremely poor form for top dog

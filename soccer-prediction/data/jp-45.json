@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"turkey",
+            "league":"champions league",
+            "homeTeam": "Karagümrük",
+            "homeTeamForm":"W,L,L,W,L",
+             "homeTeamPosition":"12", 
+             "homeOdds": "2.45",
+             "awayTeam": "Sivasspor",
+             "awayTeamForm":"D,L,D,L,W",
+             "awayTeamPosition":"11",
+             "awayOdds": "2.6",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Karagümrük",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Sivasspor",
+                    "htohOneHScore":"4",
+                    "headtoheadOneAway": "Karagümrük",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Sivasspor"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Sivasspor",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Karagümrük",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Sivasspor" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Karagümrük",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Sivasspor",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

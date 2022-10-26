@@ -1,5 +1,5 @@
 
-<?php require 'bootstrap.php';?>
+<?php include 'bootstrap.php';?>
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our Soccer Predictions</div>

@@ -1,5 +1,6 @@
+
+
 <?php include 'includes/header.php';?>
-<?php require 'parseJson.php';?>
 <?php require './analysis/analysisDraw.php';?>
 <?php require './analysis/analysisAlwaysWon.php';?>
 <?php require './analysis/analysisAlternatingTeam.php';?>

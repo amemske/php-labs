@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Alaves",
+            "homeTeamForm":"L,W,L,L,D",
+             "homeTeamPosition":"19", 
+             "homeOdds": "2.5",
+             "awayTeam": "Valencia",
+             "awayTeamForm":"D,D,W,L,D",
+             "awayTeamPosition":"11",
+             "awayOdds": "3.10",
+             "totalDraws": "3",
+             "TeamsInLeague": "20",
+             "finalScore": "Alaves",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Valencia",
+                    "htohOneHScore":"3",
+                    "headtoheadOneAway": "Alaves",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Valencia"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Valencia",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Alaves",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Alaves",
+                    "htohThreeHScore":"2",
+                    "headtoheadThreeAway": "Valencia",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Alaves",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Valencia",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

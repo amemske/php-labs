@@ -1,5 +1,7 @@
 <?php require 'bootstrap.php';?>
 
+
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -11,10 +13,10 @@
 			<div class="col-md-3">
 			  <div class="p-3 border bg-light">
 				  
-				  <h5>Country: <span id="country"><?php echo $data['country']; ?></span> </h5>
-				  <h6>League: <span id="league"><?php echo $data['league']; ?></span> </h6>
+				  <h5>Country: <span id="country"><?php echo $GLOBALS['data']['country']; ?></span> </h5>
+				  <h6>League: <span id="league"><?php echo $GLOBALS['data']['league']; ?></span> </h6>
 				  <h5>Prediction: <span id="finalPrediction" class="text-warning"></span> </h5>
-				  <h5>Final Score: <span id="finalScore" class="text-success"><?php echo $data['finalScore']; ?></span> </h5>
+				  <h5>Final Score: <span id="finalScore" class="text-success"><?php echo $GLOBALS['data']['finalScore']; ?></span> </h5>
 			  
 			  </div>
 			  <div class="p-3 border bg-light">
@@ -51,19 +53,19 @@
 		<div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3  mt-4">
 		  <div class="col">
 			<div class="p-3 border bg-light">
-				<h3 id="homeTeam"><?php echo $data['homeTeam']; ?></h3>
-				<h4>odds: <span id="homeTeamodds"><?php echo $data['homeOdds']; ?></span></h4>
-				<h5>position: <span class="badge bg-info text-dark" id="homeTeamPosition"><?php echo $data['homeTeamPosition']; ?></span> </h5>
-				<h5>form: <span class="teamForm" id="homeTeamForm"> <?php echo $data['homeTeamForm']; ?></span> </h5>
+				<h3 id="homeTeam"><?php echo $GLOBALS['data']['homeTeam']; ?></h3>
+				<h4>odds: <span id="homeTeamodds"><?php echo $GLOBALS['data']['homeOdds']; ?></span></h4>
+				<h5>position: <span class="badge bg-info text-dark" id="homeTeamPosition"><?php echo $GLOBALS['data']['homeTeamPosition']; ?></span> </h5>
+				<h5>form: <span class="teamForm" id="homeTeamForm"> <?php echo $GLOBALS['data']['homeTeamForm']; ?></span> </h5>
 			</div>
 		  </div>
 		  <div class="col">
 			<div class="p-3 border bg-light">
-				<h3 id="awayTeam"><?php echo $data['awayTeam']; ?></h3>
+				<h3 id="awayTeam"><?php echo $GLOBALS['data']['awayTeam']; ?></h3>
 			<div>
-				<h4>odds: <span id="awayTeamodds"><?php echo $data['awayOdds']; ?></span></h4>
-				<h5>position: <span class="badge bg-info text-dark" id="awayTeamPosition"><?php echo $data['awayTeamPosition']; ?></span> </h5>
-				<h5>form: <span class="teamForm" id="awayTeamForm"><?php echo $data['awayTeamForm']; ?> </span> </h5>
+				<h4>odds: <span id="awayTeamodds"><?php echo $GLOBALS['data']['awayOdds']; ?></span></h4>
+				<h5>position: <span class="badge bg-info text-dark" id="awayTeamPosition"><?php echo $GLOBALS['data']['awayTeamPosition']; ?></span> </h5>
+				<h5>form: <span class="teamForm" id="awayTeamForm"><?php echo $GLOBALS['data']['awayTeamForm']; ?> </span> </h5>
 			</div>
 		</div>
 		  </div>
@@ -79,12 +81,12 @@
 			<div class="col border bg-light">
 			  <div class="p-3  row">
 				  <div class="col">
-				 	 <div id="headtoheadOneHome"><?php echo $data['headtoheadOne']['headtoheadOneHome']; ?> </div> 
-					 <div id="htohOneHScore"><?php echo $data['headtoheadOne']['htohOneHScore']; ?> </div>
+				 	 <div id="headtoheadOneHome"><?php echo $GLOBALS['data']['headtoheadOne']['headtoheadOneHome']; ?> </div> 
+					 <div id="htohOneHScore"><?php echo $GLOBALS['data']['headtoheadOne']['htohOneHScore']; ?> </div>
 				 </div>
 				  <div class="col"> 
-				  	<div id="headtoheadOneAway"> <?php echo $data['headtoheadOne']['headtoheadOneAway']; ?> </div> 
-					<div id="htohOneAScore"><?php echo $data['headtoheadOne']['htohOneAScore']; ?> </div> 
+				  	<div id="headtoheadOneAway"> <?php echo $GLOBALS['data']['headtoheadOne']['headtoheadOneAway']; ?> </div> 
+					<div id="htohOneAScore"><?php echo $GLOBALS['data']['headtoheadOne']['htohOneAScore']; ?> </div> 
 				</div> 	  
 		  </div>
 			</div> 
@@ -98,12 +100,12 @@
 			<div class="col border bg-light">
 			  <div class="p-3  row">
 				  <div class="col">
-				 	 <div id="headtoheadTwoHome"> <?php echo $data['headtoheadTwo']['headtoheadTwoHome']; ?></div> 
-					 <div id="htohTwoHScore"><?php echo $data['headtoheadTwo']['htohTwoHScore']; ?></div>
+				 	 <div id="headtoheadTwoHome"> <?php echo $GLOBALS['data']['headtoheadTwo']['headtoheadTwoHome']; ?></div> 
+					 <div id="htohTwoHScore"><?php echo $GLOBALS['data']['headtoheadTwo']['htohTwoHScore']; ?></div>
 				 </div>
 				  <div class="col"> 
-				  	<div id="headtoheadTwoAway"><?php echo $data['headtoheadTwo']['headtoheadTwoAway']; ?></div> 
-					<div id="htohTwoAScore"><?php echo $data['headtoheadTwo']['htohTwoAScore']; ?></div> 
+				  	<div id="headtoheadTwoAway"><?php echo $GLOBALS['data']['headtoheadTwo']['headtoheadTwoAway']; ?></div> 
+					<div id="htohTwoAScore"><?php echo $GLOBALS['data']['headtoheadTwo']['htohTwoAScore']; ?></div> 
 				</div> 	  
 		  </div>
 			</div> 
@@ -117,12 +119,12 @@
 			<div class="col border bg-light">
 			  <div class="p-3  row">
 				  <div class="col">
-				 	 <div id="headtoheadThreeHome"> <?php echo $data['headtoheadThree']['headtoheadThreeHome']; ?></div> 
-					 <div id="htohThreeHScore"><?php echo $data['headtoheadThree']['htohThreeHScore']; ?></div>
+				 	 <div id="headtoheadThreeHome"> <?php echo $GLOBALS['data']['headtoheadThree']['headtoheadThreeHome']; ?></div> 
+					 <div id="htohThreeHScore"><?php echo $GLOBALS['data']['headtoheadThree']['htohThreeHScore']; ?></div>
 				 </div>
 				  <div class="col"> 
-				  	<div id="headtoheadThreeAway"><?php echo $data['headtoheadThree']['headtoheadThreeAway']; ?> </div> 
-					<div id="htohThreeAScore"><?php echo $data['headtoheadThree']['htohThreeAScore']; ?></div> 
+				  	<div id="headtoheadThreeAway"><?php echo $GLOBALS['data']['headtoheadThree']['headtoheadThreeAway']; ?> </div> 
+					<div id="htohThreeAScore"><?php echo $GLOBALS['data']['headtoheadThree']['htohThreeAScore']; ?></div> 
 				</div> 	  
 		  </div>
 			</div> 
@@ -136,12 +138,12 @@
 			<div class="col border bg-light">
 			  <div class="p-3  row">
 				  <div class="col">
-				 	 <div id="headtoheadFourHome"> <?php echo $data['headtoheadFour']['headtoheadFourHome']; ?></div> 
-					 <div id="htohFourHScore"><?php echo $data['headtoheadFour']['htohFourHScore']; ?></div>
+				 	 <div id="headtoheadFourHome"> <?php echo $GLOBALS['data']['headtoheadFour']['headtoheadFourHome']; ?></div> 
+					 <div id="htohFourHScore"><?php echo $GLOBALS['data']['headtoheadFour']['htohFourHScore']; ?></div>
 				 </div>
 				  <div class="col"> 
-				  	<div id="headtoheadFourAway"><?php echo $data['headtoheadFour']['headtoheadFourAway']; ?> </div> 
-					<div id="htohFourAScore"><?php echo $data['headtoheadFour']['htohFourAScore']; ?></div> 
+				  	<div id="headtoheadFourAway"><?php echo $GLOBALS['data']['headtoheadFour']['headtoheadFourAway']; ?> </div> 
+					<div id="htohFourAScore"><?php echo $GLOBALS['data']['headtoheadFour']['htohFourAScore']; ?></div> 
 				</div> 	  
 		  </div>
 			</div> 

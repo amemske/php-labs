@@ -1,7 +1,6 @@
 <?php
 
 function analysisRigged(){
-    require './parseJson.php';
     require './constants.php';
 
     if (
