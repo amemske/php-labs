@@ -9,29 +9,28 @@
 </head>
 
 <body>
-    <form action="checkbox.php" method="post">
+<form action="checkbox.php" method="post">
 
-        Apples <input type="checkbox" name="fruits[]" value="apples">
-        Mangoes <input type="checkbox" name="fruits[]" value="mangoes">
-        Pears <input type="checkbox" name="fruits[]" value="pears">
-        <input type="submit">
+Apples <input type="checkbox" name="fruits[]" value="apples"><br>
+Mangoes <input type="checkbox" name="fruits[]" value="mangoes"><br>
+Pears <input type="checkbox" name="fruits[]" value="pears"><br>
+<input type="submit">
 
-    </form>
-    <?php
-    if (isset($_POST["fruits"])) {
-        echo "you chose a fruit";
-        echo $_POST['fruits'][0];
-        //$fruits = isset($_POST["fruits"]);
-        //echo  $fruits[0] ?? 'default';;
-    } else {
-        echo "you didn't choose";
-    }
+</form>
 
+<?php
 
-    //
+var_dump($_POST["fruits"]);// an array of fruits is creates when you select something
 
-
-    ?>
+if (isset($_POST["fruits"])) { //check if array of fruits is created
+echo "You chose the following fruits:<br>";
+foreach ($_POST['fruits'] as $fruit) {
+    echo "- " . htmlspecialchars($fruit) . "<br>";
+}
+} else {
+echo "You didn't choose any fruits.";
+}
+?>
 
 
 

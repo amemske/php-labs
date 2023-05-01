@@ -1,7 +1,7 @@
 <?php
 
 /*
-superglobal are all arra
+superglobal are all arrays
 $_GET -  Contains information  about variables passed through a URL or a form.
 $_POST - Contains information about variables passed  through a form.
 $_COOKIE - Contains information about variables passed through a cookie

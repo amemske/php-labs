@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="secure-form.php" method="post">
+    <form action="" method="post">
         password: <input type="password" name="pass" />
         <input type="submit" />
 

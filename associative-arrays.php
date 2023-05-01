@@ -13,20 +13,21 @@
     <form action="associative-arrays.php" method="post">
         <input type="text" name="students">
 
-        <input type="submit">
+        <input type="submit" name="checkGrade">
     </form>
     <?php
     $grades = array("Antony" => "A+", "Eric" => "B+", "Cindy" => "C+");
-    echo $grades["Antony"];
-    echo count($grades);
-    $grades["Eric"] = "C-";
-    echo $grades["Eric"];
-
-    if (isset($grades[$_POST["students"]])) {
+   // echo $grades["Antony"];
+   // echo count($grades);
+   // $grades["Eric"] = "C-";
+   // echo $grades["Eric"];
+   if(isset($_POST['checkGrade'])){ //prevents undefined index
+    if (isset($grades[$_POST["students"]])) { // $_POST["students"] is the value in the textfield
         echo $grades[$_POST["students"]];
     } else {
-        echo "nothing";
+        echo "Student doesn't exist";
     }
+}
     ?>
 
 </body>

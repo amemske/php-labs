@@ -27,7 +27,7 @@
     echo "<br>";
     echo $phrase;
     echo "<br>";
-    echo str_replace("Bingwa", "Kula", $phrase);
+    echo str_replace("Singwa", "Kula", $phrase);
     echo "<br>";
     echo $phrase;
     echo "<br>";

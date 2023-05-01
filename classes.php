@@ -8,6 +8,7 @@ class Book
 }
 
 $book1 = new Book();
+
 $book1->title = "Harry Potter";
 $book1->author = "JK Rowlings";
 $book1->pages = 300;
