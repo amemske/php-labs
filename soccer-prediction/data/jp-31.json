@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Oviedo",
+            "homeTeamForm":"D,W,L,D,W",
+             "homeTeamPosition":"9", 
+             "homeOdds": "2.25",
+             "awayTeam": "Huesca",
+             "awayTeamForm":"W,L,L,W,L",
+             "awayTeamPosition":"13",
+             "awayOdds": "3.6",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Huesca",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Oviedo",
+                    "htohOneAScore":"2",
+                    "headtoheadOneWon": "Oviedo"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Oviedo",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Huesca",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Huesca",
+                    "htohThreeHScore":"3",
+                    "headtoheadThreeAway": "Oviedo",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "Huesca"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Oviedo",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Huesca",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Oviedo"
+         }         
+             
+          
+       }
+    ]
+ }

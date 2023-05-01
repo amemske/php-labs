@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"switzerland",
+            "league":"champions league",
+            "homeTeam": "St.Gallen",
+            "homeTeamForm":"L,W,D,W,W",
+             "homeTeamPosition":"7",
+             "homeOdds": "2.0",
+             "awayTeam": "Grasshopper",
+             "awayTeamForm":"D,L,L,W,D",
+             "awayTeamPosition":"6",
+             "awayOdds": "3.5",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "St.Gallen",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"St.Gallen",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Grasshopper",
+                    "htohOneAScore":"4",
+                    "headtoheadOneWon": "Grasshopper"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Grasshopper",
+                    "htohTwoHScore":"5",
+                    "headtoheadTwoAway": "St.Gallen",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Grasshopper" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Grasshopper",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "St.Gallen",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "St.Gallen"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

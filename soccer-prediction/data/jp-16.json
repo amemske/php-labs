@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"Italy",
+            "league":"champions league",
+            "homeTeam": "Udinese",
+            "homeTeamForm":"D,W,L,L,D",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"15", 
+             "awayTeam": "Torino",
+             "awayTeamForm":"W,L,W,W,D",
+             "awayOdds":"2.4",
+             "totalDraws": "0",
+             "awayTeamPosition":"10",
+             "TeamsInLeague": "20",
+             "finalScore": "Udinese",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Torino",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Udinese",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Torino"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Udinese",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Torino",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "Torino" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Torino",
+                    "htohThreeHScore":"2",
+                    "headtoheadThreeAway": "Udinese",
+                    "htohThreeAScore":"3",
+                    "headtoheadThreeWon": "Udinese"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Torino",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Udinese",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "Torino"
+         }         
+             
+          
+       }
+    ]
+ }

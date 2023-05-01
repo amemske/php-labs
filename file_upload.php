@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
         // echo '</pre>';
 
         //allowed extensions
-        $allowed_ext = array('png', 'jpg', 'jpeg', 'gif');
+        $allowed_ext = array('png', 'jpg', 'jpeg', 'gif', 'pdf');
 
         $file_name = $_FILES['upload']['name'];
         $file_size = $_FILES['upload']['size'];

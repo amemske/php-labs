@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"italy",
+            "league":"champions league",
+            "homeTeam": "Venezia",
+            "homeTeamForm":"L,D,L,L,W",
+             "homeTeamPosition":"18", 
+             "homeOdds": "2.50",
+             "awayTeam": "Genoa",
+             "awayTeamForm":"L,L,D,D,D",
+             "awayTeamPosition":"19",
+             "awayOdds": "2.9",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Genoa",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Venezia",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"null",
+                    "htohTwoHScore":"null",
+                    "headtoheadTwoAway": "null",
+                    "htohTwoAScore":"null",
+                    "headtoheadTwoWon": "null" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"null",
+                    "htohThreeHScore":"null",
+                    "headtoheadThreeAway": "null",
+                    "htohThreeAScore":"null",
+                    "headtoheadThreeWon": "null"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

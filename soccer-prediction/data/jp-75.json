@@ -1,0 +1,49 @@
+{
+       "match" :[
+            {
+               "country":"france",
+               "league":"champions league",
+               "homeTeam": "Clermont",
+               "homeTeamForm":"L,W,W,L,W",
+                "homeTeamPosition":"15", 
+                "homeOdds": "1.91",
+                "awayTeam": "Bordeaux",
+                "awayTeamForm":"L,W,L,L,D",
+                "awayTeamPosition":"20",
+                "awayOdds": "4.0",
+                "totalDraws": "0",
+                "TeamsInLeague": "20",
+                "finalScore": "Draw",
+                "headtoheadOne" : {
+                       "headtoheadOneHome":"Bordeaux",
+                       "htohOneHScore":"0",
+                       "headtoheadOneAway": "Clermont",
+                       "htohOneAScore":"2",
+                       "headtoheadOneWon": "Clermont"
+                },
+                "headtoheadTwo" : {
+                       "headtoheadTwoHome":"Clermont",
+                       "htohTwoHScore":"0",
+                       "headtoheadTwoAway": "Bordeaux",
+                       "htohTwoAScore":"1",
+                       "headtoheadTwoWon": "Bordeaux" 
+                },
+                "headtoheadThree" : {
+                       "headtoheadThreeHome":"Bordeaux",
+                       "htohThreeHScore":"2",
+                       "headtoheadThreeAway": "Clermont",
+                       "htohThreeAScore":"0",
+                       "headtoheadThreeWon": "Bordeaux"
+                },
+                "headtoheadFour" : {
+                   "headtoheadFourHome":"null",
+                   "htohFourHScore":"null",
+                   "headtoheadFourAway": "null",
+                   "htohFourAScore":"null",
+                   "headtoheadFourWon": "null"
+            }         
+                
+             
+          }
+       ]
+    }

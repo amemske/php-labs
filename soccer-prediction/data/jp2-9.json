@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"netherlands",
+            "league":"champions league",
+            "homeTeam": "Twente",
+            "homeTeamForm":"W,W,D,W,W",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"4", 
+             "awayTeam": "Vitesse",
+             "awayTeamForm":"W,D,W,W,L",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"6",
+             "TeamsInLeague": "20",
+             "finalScore": "Twente",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Vitesse",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Twente",
+                    "htohOneAScore":"4",
+                    "headtoheadOneWon": "Twente"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Twente",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Vitesse",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Vitesse" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Vitesse",
+                    "htohThreeHScore":"0",
+                    "headtoheadThreeAway": "Twente",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "Twente"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Vitesse",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Twente",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "Fortuna"
+         }         
+             
+          
+       }
+    ]
+ }

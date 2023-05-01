@@ -1,0 +1,49 @@
+{
+       "match" :[
+            {
+               "country":"france",
+               "league":"champions league",
+               "homeTeam": "Amiens",
+               "homeTeamForm":"W,D,D,W,D",
+                "homeTeamPosition":"11", 
+                "homeOdds": "2.15",
+                "awayTeam": "Nîmes",
+                "awayTeamForm":"W,W,L,L,W",
+                "awayTeamPosition":"7",
+                "awayOdds": "3.4",
+                "totalDraws": "2",
+                "TeamsInLeague": "20",
+                "finalScore": "Amiens",
+                "headtoheadOne" : {
+                       "headtoheadOneHome":"Nîmes",
+                       "htohOneHScore":"3",
+                       "headtoheadOneAway": "Amiens",
+                       "htohOneAScore":"3",
+                       "headtoheadOneWon": "draw"
+                },
+                "headtoheadTwo" : {
+                       "headtoheadTwoHome":"Nîmes",
+                       "htohTwoHScore":"1",
+                       "headtoheadTwoAway": "Amiens",
+                       "htohTwoAScore":"1",
+                       "headtoheadTwoWon": "draw" 
+                },
+                "headtoheadThree" : {
+                       "headtoheadThreeHome":"Amiens",
+                       "htohThreeHScore":"2",
+                       "headtoheadThreeAway": "Nîmes",
+                       "htohThreeAScore":"1",
+                       "headtoheadThreeWon": "Amiens"
+                },
+                "headtoheadFour" : {
+                   "headtoheadFourHome":"Nîmes",
+                   "htohFourHScore":"3",
+                   "headtoheadFourAway": "Amiens",
+                   "htohFourAScore":"0",
+                   "headtoheadFourWon": "Nîmes"
+            }         
+                
+             
+          }
+       ]
+    }

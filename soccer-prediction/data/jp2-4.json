@@ -1,0 +1,48 @@
+{
+    "match" :[
+         {
+            "country":"Netherlands",
+            "league":"champions league",
+            "homeTeam": "Etienne",
+            "homeTeamForm":"W,D,L,L,L",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"20", 
+             "awayTeam": "Montpellie",
+             "awayTeamForm":"W,W,L,L,W",
+             "awayOdds":"2.4",
+             "awayTeamPosition":"6",
+             "TeamsInLeague": "20",
+             "finalScore": "Etienne",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Montpellie",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Fortuna",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Montpellie"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Montpellie",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "Etienne",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Etienne" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Etienne",
+                    "htohThreeHScore":"0",
+                    "headtoheadThreeAway": "Montpellie",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "Montpellie"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"null",
+                "htohFourHScore":"null",
+                "headtoheadFourAway": "null",
+                "htohFourAScore":"null",
+                "headtoheadFourWon": "null"
+         }         
+             
+          
+       }
+    ]
+ }

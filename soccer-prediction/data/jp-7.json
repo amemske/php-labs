@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"portugal",
+            "league":"champions league",
+            "homeTeam": "Ferreira",
+            "homeTeamForm":"W,L,D,D,D",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"12", 
+             "awayTeam": "Portimonense",
+             "awayTeamForm":"L,L,D,L,L",
+             "awayOdds":"2.4",
+             "totalDraws": "2",
+             "awayTeamPosition":"8",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Portimonense",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Ferreira",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "Heerenveen"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Ferreira",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Portimonense",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Portimonense",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Ferreira",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Ferreira",
+                "htohFourHScore":"2",
+                "headtoheadFourAway": "Portimonense",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Ferreira"
+         }         
+             
+          
+       }
+    ]
+ }

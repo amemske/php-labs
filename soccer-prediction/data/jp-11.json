@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Valencia",
+            "homeTeamForm":"W,L,L,D,L",
+             "homeOdds":"1.5",
+             "homeTeamPosition":"10", 
+             "awayTeam": "Real Sociedad",
+             "awayTeamForm":"L,L,D,W,D",
+             "awayOdds":"2.4",
+             "totalDraws": "2",
+             "awayTeamPosition":"6",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Real Sociedad",
+                    "htohOneHScore":"0",
+                    "headtoheadOneAway": "Valencia",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Valencia",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Real Sociedad",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Real Sociedad",
+                    "htohThreeHScore":"0",
+                    "headtoheadThreeAway": "Valencia",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "Valencia"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Real Sociedad",
+                "htohFourHScore":"3",
+                "headtoheadFourAway": "Valencia",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "Real Sociedad"
+         }         
+             
+          
+       }
+    ]
+ }

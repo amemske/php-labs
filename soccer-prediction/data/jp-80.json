@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"austria",
+            "league":"champions league",
+            "homeTeam": "AustriaKlagenfurt",
+            "homeTeamForm":"W,W,L,D,W",
+             "homeTeamPosition":"4", 
+             "homeOdds": "2.3",
+             "awayTeam": "Ried",
+             "awayTeamForm":"D,L,W,L,W",
+             "awayTeamPosition":"6",
+             "awayOdds": "3.0",
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Ried",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "AustriaKlagenfurt",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Ried"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Ried",
+                    "htohTwoHScore":"1",
+                    "headtoheadTwoAway": "AustriaKlagenfurt",
+                    "htohTwoAScore":"1",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"AustriaKlagenfurt",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Ried",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Ried",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "AustriaKlagenfurt",
+                "htohFourAScore":"3",
+                "headtoheadFourWon": "AustriaKlagenfurt"
+         }         
+             
+          
+       }
+    ]
+ }

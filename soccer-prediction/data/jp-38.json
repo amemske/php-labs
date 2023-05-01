@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"germany",
+            "league":"champions league",
+            "homeTeam": "Köln",
+            "homeTeamForm":"W,L,D,W,L",
+             "homeTeamPosition":"8",
+             "homeOdds": "2.25",
+             "awayTeam": "Eintracht",
+             "awayTeamForm":"L,D,L,W,L",
+             "awayTeamPosition":"10",
+             "awayOdds": "3.1",
+             "totalDraws": "3",
+             "TeamsInLeague": "20",
+             "finalScore": "Köln",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Eintracht",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Köln",
+                    "htohOneAScore":"1",
+                    "headtoheadOneWon": "draw"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Eintracht",
+                    "htohTwoHScore":"2",
+                    "headtoheadTwoAway": "Köln",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Eintracht" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Köln",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Eintracht",
+                    "htohThreeAScore":"1",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Köln",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Eintracht",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

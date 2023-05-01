@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"spain",
+            "league":"champions league",
+            "homeTeam": "Zaragoza",
+            "homeTeamForm":"D,D,D,D,L",
+             "homeTeamPosition":"17",
+             "homeOdds": "2.63", 
+             "awayTeam": "Palmas",
+             "awayTeamForm":"D,L,D,W,L",
+             "awayTeamPosition":"7",
+             "awayOdds": "2.8",
+             "totalDraws": "1",
+             "TeamsInLeague": "20",
+             "finalScore": "Zaragoza",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Palmas",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Zaragoza",
+                    "htohOneAScore":"3",
+                    "headtoheadOneWon": "Zaragoza"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Palmas",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Zaragoza",
+                    "htohTwoAScore":"2",
+                    "headtoheadTwoWon": "Zaragoza" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Zaragoza",
+                    "htohThreeHScore":"2",
+                    "headtoheadThreeAway": "Palmas",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "draw"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Palmas",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Zaragoza",
+                "htohFourAScore":"1",
+                "headtoheadFourWon": "Zaragoza"
+         }         
+             
+          
+       }
+    ]
+ }

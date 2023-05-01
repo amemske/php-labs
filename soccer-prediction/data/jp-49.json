@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"england-premiere",
+            "league":"champions league",
+            "homeTeam": "Wolverhampton",
+            "homeTeamForm":"W,W,W,L,W",
+             "homeTeamPosition":"7", 
+             "homeOdds": "2.25",
+             "awayTeam": "Leicester",
+             "awayTeamForm":"W,L,D,L,D",
+             "awayTeamPosition":"11",
+             "awayOdds": "3.25",          
+             "totalDraws": "2",
+             "TeamsInLeague": "20",
+             "finalScore": "Wolverhampton",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Leicester",
+                    "htohOneHScore":"1",
+                    "headtoheadOneAway": "Wolverhampton",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "WestHam"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Wolverhampton",
+                    "htohTwoHScore":"0",
+                    "headtoheadTwoAway": "Leicester",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "draw" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Leicester",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Wolverhampton",
+                    "htohThreeAScore":"0",
+                    "headtoheadThreeWon": "Leicester"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Wolverhampton",
+                "htohFourHScore":"0",
+                "headtoheadFourAway": "Leicester",
+                "htohFourAScore":"0",
+                "headtoheadFourWon": "draw"
+         }         
+             
+          
+       }
+    ]
+ }

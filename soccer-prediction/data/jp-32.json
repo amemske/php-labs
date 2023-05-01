@@ -1,0 +1,49 @@
+{
+    "match" :[
+         {
+            "country":"turkey",
+            "league":"champions league",
+            "homeTeam": "Kasımpaşa",
+            "homeTeamForm":"W,W,W,W,L",
+             "homeTeamPosition":"14", 
+             "homeOdds": "1.90",
+             "awayTeam": "Alanyaspor",
+             "awayTeamForm":"D,W,W,W,D",
+             "awayTeamPosition":"6",
+             "awayOdds": "3.50",
+             "totalDraws": "0",
+             "TeamsInLeague": "20",
+             "finalScore": "Draw",
+             "headtoheadOne" : {
+                    "headtoheadOneHome":"Alanyaspor",
+                    "htohOneHScore":"2",
+                    "headtoheadOneAway": "Kasımpaşa",
+                    "htohOneAScore":"0",
+                    "headtoheadOneWon": "Alanyaspor"
+             },
+             "headtoheadTwo" : {
+                    "headtoheadTwoHome":"Kasımpaşa",
+                    "htohTwoHScore":"3",
+                    "headtoheadTwoAway": "Alanyaspor",
+                    "htohTwoAScore":"0",
+                    "headtoheadTwoWon": "Kasımpaşa" 
+             },
+             "headtoheadThree" : {
+                    "headtoheadThreeHome":"Alanyaspor",
+                    "htohThreeHScore":"1",
+                    "headtoheadThreeAway": "Kasımpaşa",
+                    "htohThreeAScore":"2",
+                    "headtoheadThreeWon": "Kasımpaşa"
+             },
+             "headtoheadFour" : {
+                "headtoheadFourHome":"Kasımpaşa",
+                "htohFourHScore":"1",
+                "headtoheadFourAway": "Alanyaspor",
+                "htohFourAScore":"2",
+                "headtoheadFourWon": "Alanyaspor"
+         }         
+             
+          
+       }
+    ]
+ }
