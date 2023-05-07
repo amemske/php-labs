@@ -29,7 +29,7 @@ $ship2 = $ships[$ship2Name];
 //var_dump($ship1 , $ship2);die;
 
 $outcome = battle($ship1, $ship1Quantity, $ship2, $ship2Quantity);
-var_dump($outcome);die;
+//var_dump($outcome);die;
 ?>
 
 <html>

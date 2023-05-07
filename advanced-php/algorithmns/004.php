@@ -1,0 +1,11 @@
+<?php
+
+// Data structures are a way of organizing and storing data in a computer program. They are fundamental building blocks for designing efficient and scalable algorithms, as they allow programmers to manipulate and access data in a way that is optimized for the problem at hand.
+// There are many different types of data structures, each with their own strengths and weaknesses, depending on the specific requirements of the problem being solved. Here are some common data structures:
+// Arrays: An array is a collection of elements of the same type, stored in contiguous memory locations. Arrays are useful for random access to elements, but inserting or deleting elements can be slow.
+// Linked Lists: A linked list is a collection of nodes, each containing an element and a reference to the next node in the list. Linked lists are useful for inserting or deleting elements, but random access can be slow.
+// Stacks: A stack is a collection of elements where the last element added is the first element removed (LIFO - last in, first out). Stacks are useful for implementing algorithms that require last-in, first-out behavior, such as depth-first search.
+// Queues: A queue is a collection of elements where the first element added is the first element removed (FIFO - first in, first out). Queues are useful for implementing algorithms that require first-in, first-out behavior, such as breadth-first search.
+// Trees: A tree is a hierarchical data structure where each node has zero or more child nodes. Trees are useful for representing hierarchical relationships, such as in file systems, organization charts, or XML documents.
+// Graphs: A graph is a collection of nodes (vertices) and edges connecting them. Graphs are useful for representing relationships between entities, such as in social networks, transportation networks, or computer networks.
+// These are just a few examples of the many different types of data structures. Choosing the right data structure for a given problem can be critical to the efficiency and scalability of the algorithm. 

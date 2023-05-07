@@ -13,4 +13,4 @@ class Table {
     }
 }
 
-(new Table())->save();
+(new Table())->log("testing");
