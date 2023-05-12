@@ -5,28 +5,26 @@ use PHPUnit\Framework\TestCase;
 
 class PrimeFactorsTest extends TestCase
 {
-    /** @test */
-function it_generates_prime_factors_for_1(){
+    /**
+     * @test
+     * @dataProvider factors
+     */
+function it_generates_prime_factors_for_1($number, $expected){
     $factors = new PrimeFactors(); //call class
 
-    $this->assertEquals([], $factors->generate(1)); //call class methods
+    $this->assertEquals($expected, $factors->generate($number)); //call class methods
 }
 
-    /** @test */
-    function it_generates_prime_factors_for_2(){
-        $factors = new PrimeFactors(); //call class
-        $this->assertEquals([2], $factors->generate(2)); //call class methods
-    }
-    /** @test */
-    function it_generates_prime_factors_for_3(){
-        $factors = new PrimeFactors(); //call class
-        $this->assertEquals([3], $factors->generate(3)); //call class methods
-    }
-
-    /** @test */
-    function it_generates_prime_factors_for_4(){
-        $factors = new PrimeFactors(); //call class
-        $this->assertEquals([2,2], $factors->generate(4)); //call class methods
+    public function factors(): array
+    {
+        return [
+            [1, []],
+            [2, [2]],
+            [3, [3]],
+            [5, [5]],
+            [6, [2,3]],
+            [8, [2,2,2]],
+        ];
     }
 
 
