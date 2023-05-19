@@ -12,18 +12,18 @@ abstract class Animal {
 
 class Dog extends Animal {
     public function makeSound() {
-        echo "Woof!";
+        echo" {$this->name} makes the sound Woof!";
     }
 }
 
 class Cat extends Animal {
     public function makeSound() {
-        echo "Meow!";
+        echo "{$this->name} makes the sound Meow!";
     }
 }
 
 $dog = new Dog("Fido");
 $cat = new Cat("Whiskers");
 
-$dog->makeSound(); // Output: Woof!
-$cat->makeSound(); // Output: Meow!
+$dog->makeSound(); // Output: Fido makes the sound Woof!
+$cat->makeSound(); // Output: Whiskers makes the sound Meow!
