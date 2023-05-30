@@ -30,7 +30,7 @@
 		if(isset($_POST['calculate'])){ //check whether the form is clicked and submitted
 			$value1 = $_POST['value1'];
 			$value2 = $_POST['value2'];
-			$operation = $_POST['operation'];
+			$operation = $_POST['operation'];// assigns the value property
 
 			if(!is_numeric($value1) || !is_numeric($value2)){
 				echo "Please enter valid numbers";

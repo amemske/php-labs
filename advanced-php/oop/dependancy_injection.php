@@ -9,28 +9,34 @@
     */
 
 
-// Service class
-class EmailService {
-    public function sendEmail($to, $subject, $body) {
-        // send email
+// We define a function called playInstrument() that takes an argument of type Playable.
+//  This means that any object passed to this function must implement the Playable interface,
+//  which requires having a play() method. Inside the function, we call the play() method on the passed object.
+
+interface Playable {
+    public function play();
+}
+
+class Guitar implements Playable {
+    public function play(){
+        echo 'Messing with the guitar';
     }
 }
 
-// Client class
-class UserRegistration {
-    private $emailService;
-
-    public function __construct(EmailService $emailService) {
-        $this->emailService = $emailService;
-    }
-
-    public function registerUser($name, $email, $password) {
-        // register user
-        $this->emailService->sendEmail($email, 'Welcome to our site!', 'Thank you for registering.');
+class Piano implements Playable {
+    public function play(){
+        echo "Pressing Piano keys";
     }
 }
 
-// Usage
-$emailService = new EmailService();
-$userRegistration = new UserRegistration($emailService);
-$userRegistration->registerUser('John Doe', 'john.doe@example.com', 'password');
+function playInstrument(Playable $instrument): void
+{
+    $instrument->play();
+}
+
+$guitar = new Guitar();
+$piano = new Piano();
+
+playInstrument($guitar);
+playInstrument($piano);
+

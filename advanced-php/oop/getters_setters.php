@@ -20,13 +20,15 @@ class Movie
     {
         if ($changedRating == 'G' || $changedRating == 'PG' || $changedRating == 'PG-13' || $changedRating == 'R' || $changedRating == 'NR') {
             $this->rating = $changedRating;
+        } else {
+            $this->rating = "NR";
         }
-        $this->rating = "NR";
+
     }
 }
 
 
-$avengers = new Movie("Avengers", "fedfk");
+$avengers = new Movie("Avengers", "PG");
 //$avengers->setRating("dog");
 
 echo $avengers->getRating();

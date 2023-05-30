@@ -40,7 +40,6 @@ class Person {
         if($method === 'getAgeInDays') {
             return $this->age * 365;
         }
-
     }
 
 }

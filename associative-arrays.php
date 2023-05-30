@@ -15,17 +15,14 @@
 
         <input type="submit" name="checkGrade">
     </form>
+
     <?php
     $grades = array("Antony" => "A+", "Eric" => "B+", "Cindy" => "C+");
-<<<<<<< HEAD
    // echo $grades["Antony"];
    // echo count($grades);
    // $grades["Eric"] = "C-";
    // echo $grades["Eric"];
-   if(isset($_POST['checkGrade'])){ //prevents undefined index
-    if (isset($grades[$_POST["students"]])) { // $_POST["students"] is the value in the textfield
-        echo $grades[$_POST["students"]];
-=======
+
     //echo $grades["Antony"];
     //echo count($grades);
    // $grades["Eric"] = "C-";
@@ -33,11 +30,10 @@
 
     if (isset($_POST["students"]) && isset($grades[$_POST["students"]]) ) {
         echo "testing" . $grades[$_POST["students"]];
->>>>>>> d3b153355a14ca689a9033afcd1f3392f7f94bd7
     } else {
         echo "Student doesn't exist";
     }
-}
+
     ?>
 
 </body>

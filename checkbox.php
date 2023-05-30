@@ -11,14 +11,6 @@
 <body>
 <form action="checkbox.php" method="post">
 
-<<<<<<< HEAD
-Apples <input type="checkbox" name="fruits[]" value="apples"><br>
-Mangoes <input type="checkbox" name="fruits[]" value="mangoes"><br>
-Pears <input type="checkbox" name="fruits[]" value="pears"><br>
-<input type="submit">
-
-</form>
-=======
     <input type="checkbox" name="fruits[]" value="apples"> Apples <br>
     <input type="checkbox" name="fruits[]" value="mangoes"> Mangoes <br>
     <input type="checkbox" name="fruits[]" value="pears">   Pears <br>
@@ -34,10 +26,7 @@ Pears <input type="checkbox" name="fruits[]" value="pears"><br>
         }
     } else {
         echo "you didn't choose";
-    }
->>>>>>> d3b153355a14ca689a9033afcd1f3392f7f94bd7
-
-<?php
+}
 
 var_dump($_POST["fruits"]);// an array of fruits is creates when you select something
 
