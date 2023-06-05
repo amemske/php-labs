@@ -58,4 +58,91 @@
  *
  * A frequency table is a data structure that lists the frequency of each distinct value in a dataset. In the context of text processing, a
  * frequency table can be used to count the frequency of each character, word, or other unit of text in a given text string.
+ *
+ * The mb_convert_encoding() function in PHP is used to convert a string from one character encoding to another. The to_encoding parameter
+ *  specifies the target encoding, while the from_encoding parameter specifies the current encoding of the string. Here are some commonly used encoding types:
+
+ *  UTF-8: This is the most common encoding for Unicode characters. It can represent all Unicode characters and is widely supported across platforms and applications.
+
+ *  UTF-16LE and UTF-16BE: These are two variations of UTF-16 encoding, which uses 16 bits to represent Unicode characters. UTF-16LE is little-endian, where the least
+ *  significant byte comes first, while UTF-16BE is big-endian, where the most significant byte comes first.
+
+ *  UTF-32LE and UTF-32BE: These are two variations of UTF-32 encoding, which uses 32 bits (4 bytes) to represent Unicode characters. UTF-32LE is little-endian,
+ *  and UTF-32BE is big-endian.
+
+ *  When dealing with emojis, which are often represented by code points outside the Basic Multilingual Plane (BMP) of Unicode, it is recommended to use UTF-32 encoding
+ *  rather than UTF-16. This is because UTF-32 can represent all Unicode characters directly with a fixed 32-bit encoding, including emojis and characters in the Supplementary
+ *  Multilingual Plane (SMP) and beyond.
+
+ *  On the other hand, UTF-16 uses variable-length encoding, where some characters (such as emojis) are represented by multiple 16-bit code units. This can lead to complexities
+ *  when working with emojis, as you may need to handle surrogate pairs and consider the byte order (endianness) of the encoding.
+
+ *  By using UTF-32LE encoding in the mb_convert_encoding() function, you ensure that each Unicode character, including emojis, is represented by a single 32-bit code unit,
+ *  making it easier to handle and compare code points. This simplifies the emoji detection process in your algorithm.
+ *
+ * Here's an updated list of popular PHP functions used for handling strings, characters, and binary data, including ord and a few more:
+
+String Manipulation:
+
+- strlen(): Returns the length of a string.
+- strpos(): Searches for a substring within a string and returns the position of the first occurrence.
+- str_replace(): Replaces all occurrences of a substring with another substring in a string.
+- substr(): Returns a portion of a string.
+- strtolower(): Converts a string to lowercase.
+- strtoupper(): Converts a string to uppercase.
+- trim(): Removes whitespace or other specified characters from the beginning and end of a string.
+- implode(): Joins an array of strings into a single string using a specified delimiter.
+
+Character Encoding:
+
+- mb_convert_encoding(): Converts the character encoding of a string.
+- mb_strlen(): Returns the length of a string in characters (multibyte-safe).
+- mb_substr(): Returns a part of a string (multibyte-safe).
+- mb_strpos(): Searches for a substring within a string and returns the position of the first occurrence (multibyte-safe).
+- ord(): Returns the ASCII value of the first character of a string.
+
+Binary Data:
+
+- bin2hex(): Converts binary data to its hexadecimal representation.
+- hex2bin(): Converts a hexadecimal string to binary data.
+- base64_encode(): Encodes binary data using base64 encoding.
+- base64_decode(): Decodes a base64 encoded string back to binary data.
+
+URL Encoding:
+
+- urlencode(): Encodes a string for use in a URL.
+- urldecode(): Decodes a URL-encoded string.
+- rawurlencode(): Encodes a string for use in a URL, preserving characters with special meaning.
+
+Regular Expressions (Regex):
+
+- preg_match(): Performs a regular expression match on a string.
+- preg_replace(): Performs a regular expression search and replace on a string.
+- preg_split(): Splits a string by a regular expression pattern.
+
+
+The rawurlencode() function in PHP is used to encode a string in a way that makes it safe for use in a URL.
+It performs URL encoding by replacing special characters with their hexadecimal representation preceded by a percent sign (%).
+
+The main difference between rawurlencode() and urlencode() is that rawurlencode() keeps certain characters intact, such as the forward slash (/),
+which is normally encoded by urlencode(). This is useful when you want to include URL segments or parameters that contain special characters without altering their meaning.
+
+
+
+Unicode characters are a standardized system for encoding and representing characters from different writing systems and languages. Unicode aims to provide a universal character set that encompasses characters from all major scripts and symbols used worldwide.
+
+Unicode characters cover a wide range of characters, including alphabets, digits, punctuation marks, symbols, and special characters. Here are some examples of Unicode characters:
+
+Latin Characters: A-Z, a-z
+Digits: 0-9
+Accented Characters: á, é, ñ, ç
+Currencies: $, €, ¥
+Emojis: 😃, 🌍, 🎉
+Mathematical Symbols: ∑, √, π
+Greek Letters: α, β, γ
+Cyrillic Characters: Я, ж, п
+Devanagari Characters (used in Hindi): अ, आ, क, ख
+Chinese Characters: 你, 好, 世, 界
+These are just a few examples, and Unicode encompasses a vast range of characters to support various writing systems and languages across the globe.
+
  */
