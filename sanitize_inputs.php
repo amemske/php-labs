@@ -12,9 +12,9 @@ if (isset($_POST['submit'])) {
 */
 if (isset($_POST['submit'])) {
     $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
-    $age = filter_input(INPUT_POST, 'age', FILTER_SANITIZE_SPECIAL_CHARS);
+    $marks = filter_input(INPUT_POST, 'marks', FILTER_SANITIZE_SPECIAL_CHARS);
     echo $subject;
-    echo $age;
+    echo $marks;
 }
 
 

@@ -15,4 +15,4 @@ echo [$a, $b] = returnTwoValues(); // Output: a = 1, b = 2
 
 // This will raise a fatal error, since the function returns an array with only one element,
 // but there are two variables on the left-hand side of the assignment:
-[$d, $e] = [1]; // Fatal error: Uncaught Error: [] operator not supported for strings
+[$d, $e] = [1]; // Fatal error: Uncaught Error: [] operator not supported for strings // it should be[$d, $e] = [1, 2];

@@ -14,6 +14,7 @@ echo "<br>";
 //Add to an  array
 $cars[] = "mazda";
 array_push($cars, "nissan", "toyota");
+
 //array_unshift($cars, "vw");
 
 print_r($cars) ;
@@ -33,7 +34,7 @@ $books = ["Jack and the bean stalk", "Gullivers travellers", "Simpsones"];
 $chuncked_array = array_chunk($books, 1);
 
 
-$chuncked_array = array_chunk($fruits, 3);
+$chuncked_array = array_chunk($fruits, 2);
 echo "chunked array start";
 echo "<pre>";
 print_r($chuncked_array);

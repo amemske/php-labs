@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="simple-calc.php" method="get">
+    <form action="calc-simple.php" method="get">
         value 1: <input type="number" name="num1" />
         value 2: <input type="number" name="num2" />
         <input type="submit" />

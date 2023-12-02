@@ -28,7 +28,7 @@ class User
 
 //$user1->setName('Brad');
 
-$user1 = new User('Brad', 'Marrison', '1234');
+$user1 = new User('Brad', 'brad@gmail.com', '1234');
 
 echo $user1->name;
 echo $user1->email;
@@ -40,11 +40,11 @@ echo $user1->email;
 class Employee extends User
 {
     public $title;
-    public function __construct($name, $email, $password, $title)
-    {
+    public function __construct($name, $email, $password, $title) {
         parent::__construct($name, $email, $password);
         $this->title = $title;
     }
+
     public function getTitle()
     {
         return $this->title;

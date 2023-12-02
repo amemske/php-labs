@@ -10,7 +10,7 @@ class CountDistinctEmojis
         $seenEmojis = [];
 
         $unicode_string = mb_convert_encoding($string, 'UTF-32LE', 'utf-8');//convert from UTF8 to UTF-32LE
-        $unicode_array = unpack('V*', $unicode_string);
+        $unicode_array = unpack('V*', $unicode_string); //convert binary string into array
 
         foreach ($unicode_array as $code_point) {
            // echo "Testing1";

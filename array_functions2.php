@@ -28,7 +28,7 @@ var_dump($result);
 
 $array1 = ['a' => 1, 'b' => 2, 'c' => 3,];
 $array2 = ['a' => 1, 'b' => 4, 'c' => 3,];
-$array3 = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 1];
+$array3 = ['a' => 5, 'b' => 2, 'c' => 3,];
 
 $diff = array_diff_assoc($array1, $array2, $array3);
 

@@ -10,6 +10,13 @@ if(preg_match($pattern, $string1)){
     echo "Pattern not matched";
 }
 
+//+: This quantifier specifies that the preceding character or character class should be matched one or more times consecutively.
+//matches one or more occurrences of a comma, period, question mark, or space character.
+$text = "Hello, World. How are you?";
+$array = preg_split("/[,.? ]+/", $text);
+print_r($array);
+
+
 //The preg_replace() function performs a regular expression search and replace on a string.
 
 $string2 = "Hello, World!";

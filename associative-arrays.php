@@ -29,7 +29,7 @@
     //echo $grades["Eric"];
 
     if (isset($_POST["students"]) && isset($grades[$_POST["students"]]) ) {
-        echo "testing" . $grades[$_POST["students"]];
+        echo $_POST["students"] . " - " . $grades[$_POST["students"]];
     } else {
         echo "Student doesn't exist";
     }

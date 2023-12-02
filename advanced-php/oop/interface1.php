@@ -3,6 +3,7 @@
 //you have 2 email subscribers - campaignMonitor and Drip, you can switch between the two, without affecting 
 // the controller function
 //an interface is a formal contract
+//this is an example of dependenacy injection
 
 interface Newsletter {
     public function subscribe($email);

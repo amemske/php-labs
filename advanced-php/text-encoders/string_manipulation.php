@@ -19,7 +19,7 @@ echo $newString; // Output: Hello, everyone!
 
 //substr(): Returns a portion of a string.
 $string4 = "Hello, world!";
-$substring = substr($string4, 7);
+$substring = substr($string4, 5, 2);
 echo $substring;
 
 //strtolower(): Converts a string to lowercase.
@@ -47,6 +47,8 @@ $string = implode($delimeter1, $array1);
 print_r($array1);// Output: apple, banana, orange
 
 //explode(): Splits a string into an array of substrings based on a specified delimiter.
+//explode() is similar to preg_slit() but preg_slit can have complex regex while explode takes a simple delimeter
+
 
 $string8 = "apples, bananas,orange";
 $delimeter2 = ', ';

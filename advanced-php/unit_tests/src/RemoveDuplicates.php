@@ -2,6 +2,11 @@
 
 namespace App;
 
+/*
+ * Write a PHP class method withoutDuplicates() that takes a string as input and removes any duplicate characters from it.
+ *  The method should return the modified string without duplicates.
+ */
+
 class RemoveDuplicates
 {
     function withoutDuplicates($string): void

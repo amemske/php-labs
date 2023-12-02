@@ -1,14 +1,15 @@
 <?php
-//  A service is a piece of software that provides a specific functionality or a set of functionalities to other parts of the software system or
-//   to external clients.
+//  A service is a piece of software that provides a specific functionality 
+// or a set of functionalities to other parts of the software system or
+// to external clients.
 
 //  Here are some examples of services in software development:
  
 //  Web services - These are services that communicate over the internet using standard protocols like HTTP and provide functionality to
 //   other software systems or clients. Examples include REST APIs, SOAP web services, and GraphQL APIs.
  
-// Microservices - These are small, independent services that work together to provide a larger system's functionality. Each microservice
-// typically focuses on a specific task or domain.
+// Microservices - These are small, independent services that work together to provide a larger system's functionality. 
+//Each microservice typically focuses on a specific task or domain.
  
 // Backend services - These are services that provide functionality to the backend of a software system, such as a database service, a caching
 // service, or a messaging service.

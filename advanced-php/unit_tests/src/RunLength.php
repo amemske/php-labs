@@ -2,6 +2,11 @@
 
 namespace App;
 
+/*
+ * the modified string as the character followed by the count of consecutive occurrences; otherwise,
+ * the character should be included as is in the modified string.
+ */
+
 class RunLength
 {
     function mergeDuplicates ($original_str): void
@@ -21,7 +26,7 @@ class RunLength
             } else {
                 // If the characters are different or we have reached the end of the string,
                 // append the character and its count to the final string
-                $$final_string .= $original_str[$i] . ($duplicate_count > 1 ? $duplicate_count : "");
+                $final_string .= $original_str[$i] . ($duplicate_count > 1 ? $duplicate_count : "");
                 $duplicate_count = 1; // Reset the duplicate count for the next character
             }
         }

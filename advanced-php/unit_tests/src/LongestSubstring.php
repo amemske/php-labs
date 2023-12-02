@@ -2,6 +2,9 @@
 
 namespace App;
 
+/*
+ * Given a string, find the length of the longest substring without repeating characters.
+ */
 class LongestSubstring
 {
     function lengthOfLongestSubstring($s) {
@@ -11,13 +14,28 @@ class LongestSubstring
 
         //loop through the  string and return the maxlength
         for ($i = 0; $i < strlen($s); $i++) {
-            $char = $s[$i];
-            //check if character value exists && character value must be larger than the start value
+            $char = $s[$i]; // the actual character at index $s[$i]
+//checks if the current character $char is already seen (exists in the $seen array)
+            //$seen[$char] is and index similar to
+            /*
+             * array(4) {
+                  'H' => int(0)
+                  'e' => int(1)
+                  'l' => int(2)
+                  'o' => int(4)
+                }
+            so $seen[$char] at first is 0
+             */
+// if(isset(0) && 0 > = 0)
             if (isset($seen[$char]) && $seen[$char] >= $start) {
-                $start = $seen[$char] + 1; //update the start
+                $start = $seen[$char] + 1; //increment the start by 1
+            } else {
+
+                $seen[$char] = $i;// add the char to the array with index of i
+                //he max() function in PHP is used to find the maximum value among a list of arguments or an array.
+                // It returns the highest value from the given inputs.
+                $maxLength = max($maxLength, $i - $start + 1); //0 - 0 + 1 = 1 so in the next iteration we shall be comparing against 1
             }
-            $seen[$char] = $i;//update the seen array with each index encountered
-            $maxLength = max($maxLength, $i - $start + 1); //always return the largest number
         }
 
         return $maxLength;

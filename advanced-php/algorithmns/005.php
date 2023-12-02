@@ -4,7 +4,7 @@
 // If there are multiple characters with the same highest frequency, return the one that appears first in the string.
 // For example, given the input string "hello world", the function should return the character "l", 
 // since it appears three times in the string, which is more than any other character.
-// Note that the input string may contain spaces and special characters, and the function should treat 
+// Note that the input string may contain spaces and special characters, and the function should be removed 
 // upper- and lower-case characters as distinct.
 
 // Here's an example input and output:

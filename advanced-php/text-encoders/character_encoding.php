@@ -42,10 +42,21 @@ $string8 = "hElLo, wOrLd!";
 $convertedString2 = mb_convert_case($string8, MB_CASE_TITLE);
 echo $convertedString2; // Output: HELLO, WORLD!
 
-//mb_strrev(): Reverses a string (multibyte-safe)
+//custom function to reverse a string (multibyte-safe)
+function custom_mb_strrev($string): string
+{
+    $startPosition = mb_strlen($string, 'UTF-8');// start at the total length of the string e.g. 10
+    $reversed = '';
+    while ($startPosition-- > 0) { // with each loop decrement by 1 --
+        //start at the total length of the string and -1 with each loop
+        $reversed .= mb_substr($string, $startPosition, 1, 'UTF-8');
+    }
+    return $reversed;
+}
+
 $string9 = "Hello, 世界!";
-$reversedString = mb_strrev($string9);
-echo $reversedString;
+$reversedString = custom_mb_strrev($string9);
+echo 'The reversed string is ' . $reversedString; // !界世 ,olleH
 
 //mb_detect_encoding(): Detects the character encoding of a string
 $string10 = "Hello, 世界!";

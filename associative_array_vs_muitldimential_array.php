@@ -18,9 +18,7 @@ echo $array[1][2]; // Outputs 6
  */
 
 $array = array(
-    'query' => array(
-        'results' => 10
-    )
+    'query' => array( 'results' => 10)
 );
 
 echo $array['query']['results']; // Outputs 10

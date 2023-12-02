@@ -38,4 +38,4 @@ class AreAnagram {
 
 $newCheck = new AreAnagram();
 
- echo $newCheck->check_equal_strings('barfre', 'bear') ? 'true' : 'false';
+ echo $newCheck->check_equal_strings('bare', 'bear') ? 'true' : 'false';

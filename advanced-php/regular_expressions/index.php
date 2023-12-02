@@ -1,11 +1,5 @@
 <?php
 
-
-
-
-
-
-
 /*
  * Regular expression - Is a pattern that describes a set of strings;
  * It is used for matching and replacing strings in text.

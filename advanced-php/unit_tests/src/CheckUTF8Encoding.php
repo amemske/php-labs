@@ -2,7 +2,7 @@
 
 namespace App;
 
-class CheckUTF8Encoding
+class       CheckUTF8Encoding
 {
     function isUTF8Encoded($string): string|bool
     {

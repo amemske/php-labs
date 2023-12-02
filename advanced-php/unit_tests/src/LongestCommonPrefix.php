@@ -3,16 +3,21 @@
 namespace App;
 
 class LongestCommonPrefixClass
+/*
+ * Given an array of strings, find and return the longest common prefix among them. The longest common prefix is the
+ *  longest string that is a prefix of all strings in the array.
+ */
 {
-    function longestCommonPrefix($strings) {
-        if (empty($strings)) {
+    function longestCommonPrefix(Array $array1) {
+        if (empty($array1)) {
             return '';
         }
 
-        $prefix = $strings[0]; // Start with the first string as the initial prefix
+        $prefix = $array1[0]; // Start with the first string as the initial prefix
 
-        for ($i = 1; $i < count($strings); $i++) {
-            while (!str_starts_with($strings[$i], $prefix)) {
+        for ($i = 1; $i < count($array1); $i++) {
+           // $array1[$i] = second string $prefix = first string
+            while (!str_starts_with($array1[$i], $prefix)) { //($array1[$i] means start at the second string...so compare the second and the first strings
                 $prefix = substr($prefix, 0, -1); // Remove the last character from the prefix
             }
         }

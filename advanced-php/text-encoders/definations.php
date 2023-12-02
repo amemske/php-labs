@@ -4,9 +4,11 @@
  * text encoders are functions or classes that are used to convert text between different character encodings
  * A character encoding is a system that maps characters to binary values, which are used to represent the characters in computer memory
  *
- * There are many different character encodings in use today, such as UTF-8, ASCII, ISO-8859-1, and more. Different character encodings use different binary representations for different characters,
+ * There are many different character encodings in use today, such as UTF-8, ASCII, ISO-8859-1, and more.
+ * Different character encodings use different binary representations for different characters,
  *  which can lead to problems when text is transferred between systems or displayed in different contexts.
- * Text encoders in PHP provide a way to convert text between different character encodings, which can help to ensure that text is displayed correctly and consistently across
+ * Text encoders in PHP provide a way to convert text between different character encodings, which can help to ensure
+ *  that text is displayed correctly and consistently across
  * different systems and contexts.
  *
  * Text encoders in PHP provide a way to convert text between different character encodings, which can help to ensure that text
@@ -26,8 +28,8 @@
  *
  *
  * 4. htmlspecialchars
- *  - converts special characters in text to their corresponding HTML entities.
- * -prevents cross-site scripting(XSS) attacks by converting characters such as < and > to their HYML entity equivalent
+ * - converts special characters in text to their corresponding HTML entities.
+ * - prevents cross-site scripting(XSS) attacks by converting characters such as < and > to their HTML entity equivalent
  * - It encodes only a small character set than htmlentites()
  *
  *
@@ -47,7 +49,7 @@
  * The resulting ASCII string can be transmitted as text, decoded back into the original binary data by the recipient,
  *  and used for various purposes, such as data storage, encryption, or transmission.
  *
- * Unicode is a character encoding standard that defines a unique numeric code point for every character, symbol, and script used in modern computing.
+ *8. Unicode is a character encoding standard that defines a unique numeric code point for every character, symbol, and script used in modern computing.
  * - It provides a standardized way to represent and manipulate text in any language or script, including those that use complex scripts and non-Latin alphabets
  * - The goal of Unicode is to ensure that any text can be represented in a consistent way, regardless of the platform, language, or script used.
  *
@@ -91,22 +93,24 @@ String Manipulation:
 - strtolower(): Converts a string to lowercase.
 - strtoupper(): Converts a string to uppercase.
 - trim(): Removes whitespace or other specified characters from the beginning and end of a string.
-- implode(): Joins an array of strings into a single string using a specified delimiter.
+- implode(): returns a string from the elements of an array using a specified delimiter.
 
 Character Encoding:
 
-- mb_convert_encoding(): Converts the character encoding of a string.
+- mb_convert_encoding(): Converts a string from one encoding format to another.
 - mb_strlen(): Returns the length of a string in characters (multibyte-safe).
 - mb_substr(): Returns a part of a string (multibyte-safe).
 - mb_strpos(): Searches for a substring within a string and returns the position of the first occurrence (multibyte-safe).
 - ord(): Returns the ASCII value of the first character of a string.
 
-Binary Data:
+Binary Data: Binary data is a type of data that only has two possible values. e.g. 01 or "yes|No" or "True|False"
+
 
 - bin2hex(): Converts binary data to its hexadecimal representation.
 - hex2bin(): Converts a hexadecimal string to binary data.
-- base64_encode(): Encodes binary data using base64 encoding.
+- base64_encode(): Encodes binary data using base64 encoding.Base64 encoding is a way to represent binary data in ASCII text format
 - base64_decode(): Decodes a base64 encoded string back to binary data.
+
 
 URL Encoding:
 
@@ -129,9 +133,11 @@ which is normally encoded by urlencode(). This is useful when you want to includ
 
 
 
-Unicode characters are a standardized system for encoding and representing characters from different writing systems and languages. Unicode aims to provide a universal character set that encompasses characters from all major scripts and symbols used worldwide.
+Unicode characters are a standardized system for encoding and representing characters from different writing systems and languages.
+Unicode aims to provide a universal character set that encompasses characters from all major scripts and symbols used worldwide.
 
-Unicode characters cover a wide range of characters, including alphabets, digits, punctuation marks, symbols, and special characters. Here are some examples of Unicode characters:
+Unicode characters cover a wide range of characters, including alphabets, digits, punctuation marks, symbols, and special characters.
+Here are some examples of Unicode characters:
 
 Latin Characters: A-Z, a-z
 Digits: 0-9
@@ -145,4 +151,11 @@ Devanagari Characters (used in Hindi): अ, आ, क, ख
 Chinese Characters: 你, 好, 世, 界
 These are just a few examples, and Unicode encompasses a vast range of characters to support various writing systems and languages across the globe.
 
+
+
+Base64 encoding is a way to represent binary data in ASCII text format. It is often used to transmit data over networks or store it in a text file, and
+is also used to include small images in text documents. Base64 encoding increases the size of the data by about 33% and is not a secure method of encoding data,
+ as it can be easily decoded. Many programming languages have built-in support for Base64 encoding, and there are many online tools and libraries available for
+ working with Base64 data. However, it is not an efficient way to compress data and can be CPU intensive to decode, especially for large amounts of data.
+You should carefully consider whether Base64 encoding is the right choice for your specific use case
  */

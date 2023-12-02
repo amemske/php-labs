@@ -27,4 +27,4 @@ function findMinMax(array $arr){
 $numbers = [2,4,-5,10,3];
   [$max, $min] = findMinMax($numbers);
 
-  echo 'Max number is' .  $max . ' and' . ' Min number is ' . $min;
+  echo 'Max number is ' .  $max . ' and' . ' Min number is ' . $min;

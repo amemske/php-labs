@@ -1,5 +1,6 @@
 <?
-// Write a PHP function that takes an array of integers as input and returns the second smallest integer in the array. If the array has less than two integers, the function should return null.
+// Write a PHP function that takes an array of integers as input and returns the second smallest integer in the array.
+If the array has less than two integers, the function should return null.
 
 // Here are some additional requirements and constraints for the function:
 

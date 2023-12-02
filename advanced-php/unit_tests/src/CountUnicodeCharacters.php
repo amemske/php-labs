@@ -2,6 +2,10 @@
 
 namespace App;
 
+/*
+ * Given a string that may contain Unicode characters, write a function to count the number of distinct Unicode characters in the string.
+ */
+
 class CountUnicodeCharacters
 {
     function countUnicodeCharactersFunc($str): int
@@ -11,7 +15,7 @@ class CountUnicodeCharacters
 
         // Iterate over each character in the string
         for ($i = 0; $i < mb_strlen($str); $i++) {
-            $char = mb_substr($str, $i, 1);
+            $char = mb_substr($str, $i, 1);//check each character
 
             // Check if the character has already been seen
             if (!isset($seen[$char])) {

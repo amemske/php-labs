@@ -1,7 +1,8 @@
 <?php
 
 /*
- * Converting a string from one character encoding to another using iconv:
+ * the string "This is some text in UTF-8 encoding" consists of ASCII characters only, which can be represented
+ * using a single byte in UTF-8 encoding. Therefore, the function detects it as UTF-8 encoded text.
  */
 
 

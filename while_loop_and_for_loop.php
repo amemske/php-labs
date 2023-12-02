@@ -26,37 +26,36 @@ for ($index = 1; $index <= 5; $index++) {
 
 //A while loop inside a  for loop
 
-/*
- * when $i is 1, $j is incremented by 1 in each iteration of the inner loop, resulting in the sequence 1 2 3 4 5 being printed.
- * When $i is 2, $j is incremented by 2, resulting in the sequence 1 3 5. And when $i is 3, $j is incremented by 3,
- * resulting in the sequence 1 4. Thus, $j += $i; is a way to control the step size or increment of the inner loop's
- * counter variable based on the outer loop's value.
- *
- */
+$array1 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
 
-for ($i = 1; $i<=3;  $i++){
+$array2 = [
+    ['name' => 'John', 'age' => 25],
+    ['name' => 'Jane', 'age' => 30],
+    ['name' => 'Mark', 'age' => 35]
+];
+
+for ($i = 1; $i <= 3; $i++) {
     echo "Iterations $i: ";
 
-    $j = 1; //starting
-    while ($j<=5) {
+    $j = 1; // starting
+
+    while ($j <= 5) {
         echo $j;
+
+        // Extract values from $array1 using list assignment
+        [$val1, $val2, $val3] = $array1[$i - 1];
+        echo " - Multidimensional array: $val1, $val2, $val3";
+
+        // Extract values from $array2 using list assignment
+        ['name' => $name, 'age' => $age] = $array2[$i - 1];
+        echo " - Associative array: Name: $name, Age: $age";
+
         $j += $i; // increment
     }
+
     echo '\n';
-
 }
-
-/*For example, when $i is 1, $j is incremented by 1 in each iteration of the inner loop, resulting in
-the sequence 1 2 3 4 5 being printed. When $i is 2, $j is incremented by 2, resulting in the sequence 1 3 5.
-And when $i is 3, $j is incremented by 3, resulting in the sequence 1 4.
-Thus, $j += $i; is a way to control the step size or increment of the inner loop's counter variable based on
-the outer loop's value.
- *
- *
- *
- *
- * output is
- * Iteration 1: 1 2 3 4 5
- * Iteration 2: 1 3 5
- * Iteration 3: 1 4
- */

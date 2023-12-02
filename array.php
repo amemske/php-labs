@@ -16,6 +16,7 @@
     echo $friends[2];
     $friends[5] = "Eric";
     echo $friends[5];
+    print_r($friends)
     ?>
 </body>
 
