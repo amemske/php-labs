@@ -3,7 +3,7 @@
 // Consider a scenario where you have been given an array of integers representing the daily stock prices of a company for a given period.
 //  You are also provided with an associative array of stock prices for the same period. You are required to implement a program that performs the following tasks:
 
-$stockPricesArray = [50, 55, 45, 70, 80];
+$stockPricesArray = [50, 50, 45, 70, 80];
 $targetPrice = 60;
 $stockPricesAssocArray = [
     "day1" => 500,
@@ -47,7 +47,7 @@ function countOccurrences($stockPrices, $targetPrice){
 // Compute the cumulative sum of stock prices:
 // Write a function, computeCumulativeSum, that takes the associative array of stock prices as input and returns a new associative array containing the cumulative sum of prices at each position.
 
-function computeCumulativeSum($stockPrices) {
+function getCumulativeSum($stockPrices) {
     $cumulativeSum = [];
     $runningSum = 0;
     foreach ($stockPrices as $key => $price) {
